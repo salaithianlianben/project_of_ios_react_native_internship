@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render of To Buy List is correclty 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#A5A5A5",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "padding": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Search"
+      style={
+        Object {
+          "borderColor": "#A5A5A5",
+          "borderWidth": 1,
+          "flex": 1,
+          "paddingHorizontal": 10,
+        }
+      }
+      value=""
+    />
+    <Text
+      allowFontScaling={false}
+      onPress={[Function]}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 40,
+          },
+          undefined,
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "id": 1,
+          "item_name": "Hair Spray",
+        },
+        Object {
+          "id": 2,
+          "item_name": "Lotion",
+        },
+        Object {
+          "id": 3,
+          "item_name": "Nature Pack",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "borderBottomColor": "#A5A5A5",
+              "borderBottomWidth": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text>
+            Hair Spray
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "borderBottomColor": "#A5A5A5",
+              "borderBottomWidth": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text>
+            Lotion
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "borderBottomColor": "#A5A5A5",
+              "borderBottomWidth": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text>
+            Nature Pack
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#A5A5A5",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "padding": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Search"
+      style={
+        Object {
+          "borderColor": "#A5A5A5",
+          "borderWidth": 1,
+          "flex": 1,
+          "paddingHorizontal": 10,
+        }
+      }
+      value=""
+    />
+    <Text
+      allowFontScaling={false}
+      onPress={[Function]}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 40,
+          },
+          undefined,
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "id": 1,
+          "item_name": "Hair Spray",
+        },
+        Object {
+          "id": 2,
+          "item_name": "Lotion",
+        },
+        Object {
+          "id": 3,
+          "item_name": "Nature Pack",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "borderBottomColor": "#A5A5A5",
+              "borderBottomWidth": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text>
+            Hair Spray
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "borderBottomColor": "#A5A5A5",
+              "borderBottomWidth": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text>
+            Lotion
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "borderBottomColor": "#A5A5A5",
+              "borderBottomWidth": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text>
+            Nature Pack
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
